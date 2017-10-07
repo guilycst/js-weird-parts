@@ -12,3 +12,4 @@ function getFunctions(){
 }
 
 getFunctions().forEach(f => f());
+//RSA test
