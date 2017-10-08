@@ -15,7 +15,7 @@
     var greetings = {
         en: new Greeting('Greetings', 'Hello'),
         es: new Greeting('Saludos', 'Hola'),
-        'pt-br': new Greeting('Saudações', 'Oi'),
+        'pt-br': new Greeting('Saudações', 'Oi')
     }
 
     function greet(greeting, obj, formal) {
