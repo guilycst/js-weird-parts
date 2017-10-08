@@ -7,3 +7,5 @@ gui.setLang('en').greetOn("#en-informal", false);
 gui.greetOn("#en-formal", true);
 gui.setLang('es').greetOn("#es-informal", false);
 gui.greetOn("#es-formal", true);
+gui.setLang('pt-br').greetOn("#pt-informal", false);
+gui.greetOn("#pt-formal", true);

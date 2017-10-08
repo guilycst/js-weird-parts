@@ -5,7 +5,7 @@
         return new Greetr.init(firstName, lastName, language);
     }
 
-    var supportedLangs = ['en', 'es'];
+    var supportedLangs = ['en', 'es', 'pt-br'];
 
     function Greeting(formal, informal) {
         this.formal = formal;
@@ -14,7 +14,8 @@
 
     var greetings = {
         en: new Greeting('Greetings', 'Hello'),
-        es: new Greeting('Saludos', 'Hola')
+        es: new Greeting('Saludos', 'Hola'),
+        'pt-br': new Greeting('Saudações', 'Oi'),
     }
 
     function greet(greeting, obj, formal) {
